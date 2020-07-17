@@ -10,7 +10,7 @@ import numpy as np
 import torch.distrubuted as dist
 
 '''
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 torch_ddp.py
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 learn_ddp.py
 dong nie
 '''
 
