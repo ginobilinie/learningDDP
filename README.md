@@ -5,4 +5,4 @@ A simple example to use ddp with custom or default data sampler
 
 Pytorch 1.1 or later
 
-python -m torch.distributed.launch --nproc_per_node=2 learnddp.py
+python -m torch.distributed.launch --nproc_per_node=2 learn_ddp.py
