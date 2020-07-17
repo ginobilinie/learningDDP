@@ -170,7 +170,6 @@ class DistributedSamplerWrapper(DistributedSampler):
         self.sampler = sampler
 
     def __iter__(self):
-        """@TODO: Docs. Contribution is welcome."""
         self.dataset = DatasetFromSampler(self.sampler)
         indexes_of_indexes = super().__iter__()
         subsampler_indexes = self.dataset
